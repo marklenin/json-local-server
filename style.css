@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  font-weight: 400;
+}
+
+/* .same {
+  /* border: 1px solid red; */
+
+.similar {
+  border: 1px solid rgb(202, 202, 248);
+  margin: 1em 0;
+  width: 150px;
+  max-height: fit-content;
+  border-radius: 10px;
+  position: relative;
+}
+
+.status {
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+}
+
+.similar img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+p .gender {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin: 2rem 0;
+}
+
+p .genderred {
+  background-color: rgba(253, 169, 183, 0.863);
+}
+
+p .genderblue {
+  background-color: rgba(0, 0, 255, 0.432);
+}
+
+p .genderblack {
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+.same {
+  /* border: 1px solid red; */
+  width: 38%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5em;
+}
+.block-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5em;
+}
+
+.h1from {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.same h1 {
+  margin: 2.5rem auto 0 auto;
+}
+
+i {
+  margin-left: 5px;
+}
+
+.green {
+  padding: 3px 7px;
+  background-color: green;
+}
+.red {
+  padding: 3px 7px;
+  background-color: red;
+}
+.unknown {
+  padding: 3px 7px;
+  background-color: gray;
+}
